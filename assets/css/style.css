@@ -1,0 +1,140 @@
+@import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.max-w-1140 {
+    max-width: 1140px !important;
+}
+
+.menu-lines {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    transition: all 300ms linear;
+    transform-origin: left;
+    border-radius: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.rotate-42 {
+    transform: rotate(42deg);
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.z-6 {
+    z-index: 6;
+}
+
+.rotate-43 {
+    transform: rotate(-43deg);
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.py-17 {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.nav-btn {
+    padding: 16px 42px 16px 42px;
+    border-radius: 61px;
+    border: none;
+    transition: all 200ms linear;
+}
+
+.nav-btn:hover {
+    opacity: 80%;
+}
+
+.text-hover {
+    padding: 2px 0;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-hover:hover {
+    opacity: 100%;
+}
+
+.text-hover::before {
+    content: '';
+    border-radius: 2px;
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    position: absolute;
+    bottom: 0px;
+    width: 0;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-hover:hover::before {
+    width: 100%;
+}
+
+/***** line height *****/
+.lh-21 {
+    line-height: 21.7px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-26 {
+    line-height: 26.1px;
+}
+
+.lh-33 {
+    line-height: 33.6px;
+}
+
+.lh-52 {
+    line-height: 52.8px;
+}
+
+.lh-62 {
+    line-height: 62.4px;
+}
+
+.lh-66 {
+    line-height: 66px;
+}
+
+.lh-70 {
+    line-height: 70.4px;
+}
+
+/***** opacity *****/
+.opacity-70 {
+    opacity: 70%;
+}
+
+@media (max-width:991.98px) {
+    .nav-link {
+        display: flex !important;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        justify-content: center;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        transition: all 300ms linear !important;
+        z-index: 5;
+        backdrop-filter: blur(40px);
+    }
+
+    .show-navbar {
+        right: 0 !important;
+    }
+}
