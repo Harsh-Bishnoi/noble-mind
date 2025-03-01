@@ -243,6 +243,20 @@
     margin-bottom: 47px;
 }
 
+.common-class {
+    max-width: 268.97px;
+    height: 275.39px;
+    filter: blur(182.413px);
+}
+
+.circle-4 {
+    left: 0;
+}
+
+.circle-5 {
+    right: 80px;
+}
+
 /***** section 7 *****/
 .box-2 {
     max-width: 1140px;
