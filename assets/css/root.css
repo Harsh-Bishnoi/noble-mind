@@ -33,6 +33,10 @@
     color: var(--color-brilliance);
 }
 
+.bg-brilliance{
+    background-color: var(--color-brilliance);
+}
+
 /***** linearGradient *****/
 .linear-gradient-primary {
     background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
@@ -62,5 +66,6 @@
 @media (max-width:575.98px) {
     :root {
         --fs-xl: 46px;
+        --fs-md:30px;
     }
 }
