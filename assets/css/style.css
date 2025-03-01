@@ -1,5 +1,4 @@
 @import url(./root.css);
-/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'); */
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
 
 .max-w-1140 {
@@ -54,7 +53,7 @@
 
 .nav-btn:hover {
     opacity: 80%;
-    color: black !important;
+    color: var(--color-black) !important;
 }
 
 .text-hover {
@@ -70,7 +69,7 @@
 .text-hover::before {
     content: '';
     border-radius: 2px;
-    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    background: var(--linear-gradient-primary);
     position: absolute;
     bottom: 0px;
     width: 0;
@@ -126,7 +125,7 @@
 
 /* header */
 .heading span {
-    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    background: var(--linear-gradient-primary);
     color: transparent;
     background-clip: text;
 }
@@ -147,33 +146,30 @@
     margin-bottom: 45px;
 }
 
-.mb-47 {
-    margin-bottom: 47px;
+.pb-47 {
+    padding-bottom: 47px;
 }
 
 .max-w-829 {
     max-width: 829px;
 }
 
-.circle {
+.circle-common-class {
     position: absolute;
     max-width: 220px;
     height: 220px;
     width: 100%;
-    top: 78px;
-    left: 60px;
-    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    background: var(--linear-gradient-primary);
     filter: blur(200px);
 }
 
+.circle {
+    top: 78px;
+    left: 60px;
+}
+
 .circle-2 {
-    position: absolute;
-    max-width: 220px;
-    height: 220px;
-    width: 100%;
     right: 1.04%;
-    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
-    filter: blur(200px);
     top: 35%;
 }
 
@@ -231,13 +227,12 @@
     position: absolute;
     inset: 0;
     padding: 1px;
-    background: linear-gradient(314deg, rgba(253, 252, 252, 0) 0%, #FDFCFC 51.55%, rgba(253, 252, 252, 0) 100%);
+    background: linear-gradient(314deg, rgba(253, 252, 252, 0) 0%, var(--color-brilliance) 51.55%, rgba(253, 252, 252, 0) 100%);
     mask:
-        linear-gradient(#000 0 0) content-box,
-        linear-gradient(#000 0 0);
+        linear-gradient(var(--color-black) 0 0) content-box,
+        linear-gradient(var(--color-black) 0 0);
     mask-composite: exclude;
 }
-
 
 @media (max-width:991.98px) {
     .nav-link {
