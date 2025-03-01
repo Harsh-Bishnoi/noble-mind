@@ -202,7 +202,6 @@
     backdrop-filter: blur(124px);
     bottom: 52px;
     right: 71px;
-    position: absolute;
     padding: 22px 32.98px;
 }
 
@@ -210,16 +209,8 @@
     max-width: 119px;
 }
 
-.gap-12 {
-    gap: 12px;
-}
-
 .gap-52 {
     gap: 52px;
-}
-
-.border-gradient {
-    position: relative;
 }
 
 .border-gradient::before {
@@ -283,7 +274,7 @@
     padding-bottom: 150px;
 }
 
-.pb-26{
+.pb-26 {
     padding-bottom: 26px;
 }
 
@@ -304,10 +295,6 @@
 
 .mb-8 {
     margin-bottom: 8px;
-}
-
-.line {
-    position: relative;
 }
 
 .line::before {
