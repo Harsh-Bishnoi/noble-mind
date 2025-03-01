@@ -1,8 +1,9 @@
 @import url(./root.css);
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'); */
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
 
 .max-w-1140 {
-    max-width: 1140px !important;
+    max-width: 1164px !important;
 }
 
 .menu-lines {
@@ -53,6 +54,7 @@
 
 .nav-btn:hover {
     opacity: 80%;
+    color: black !important;
 }
 
 .text-hover {
@@ -118,6 +120,125 @@
     opacity: 70%;
 }
 
+.opacity-80 {
+    opacity: 80%;
+}
+
+/* header */
+.heading span {
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    color: transparent;
+    background-clip: text;
+}
+
+.max-w-948 {
+    max-width: 948px;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.mb-67 {
+    margin-bottom: 67px;
+}
+
+.mb-45 {
+    margin-bottom: 45px;
+}
+
+.mb-47 {
+    margin-bottom: 47px;
+}
+
+.max-w-829 {
+    max-width: 829px;
+}
+
+.circle {
+    position: absolute;
+    max-width: 220px;
+    height: 220px;
+    width: 100%;
+    top: 78px;
+    left: 60px;
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    filter: blur(200px);
+}
+
+.circle-2 {
+    position: absolute;
+    max-width: 220px;
+    height: 220px;
+    width: 100%;
+    right: 1.04%;
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    filter: blur(200px);
+    top: 35%;
+}
+
+.header-img {
+    border-radius: 16px;
+    max-width: 1139px;
+    max-height: 513px;
+}
+
+.top-56 {
+    top: -56px;
+}
+
+.left-49 {
+    left: -49px;
+}
+
+.right-51 {
+    right: -51px;
+}
+
+.bottom_50 {
+    bottom: -50px;
+}
+
+.box {
+    max-width: 997px;
+    border-radius: 12px;
+    background: linear-gradient(121.85deg, rgba(119, 176, 0, 0.02) -1.54%, rgba(0, 216, 99, 0.02) 98.96%);
+    backdrop-filter: blur(124px);
+    bottom: 52px;
+    right: 71px;
+    position: absolute;
+    padding: 22px 32.98px;
+}
+
+.max-w-119 {
+    max-width: 119px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.gap-52 {
+    gap: 52px;
+}
+
+.border-gradient {
+    position: relative;
+}
+
+.border-gradient::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    background: linear-gradient(314deg, rgba(253, 252, 252, 0) 0%, #FDFCFC 51.55%, rgba(253, 252, 252, 0) 100%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
@@ -136,5 +257,11 @@
 
     .show-navbar {
         right: 0 !important;
+    }
+}
+
+@media (max-width:575.98px) {
+    .lh-70 {
+        line-height: normal;
     }
 }

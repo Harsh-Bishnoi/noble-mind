@@ -1,6 +1,7 @@
 :root {
     /***** font-family *****/
-    --font-family-primary: "Plus Jakarta Sans", sans-serif;
+    --font-family-primary: 'Plus Jakarta Display', sans-serif;
+    ;
     /***** color *****/
     --color-white: white;
     --color-black: black;
@@ -56,4 +57,10 @@
 
 .fs-xl {
     font-size: var(--fs-xl);
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-xl: 46px;
+    }
 }
