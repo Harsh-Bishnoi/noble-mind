@@ -1,11 +1,11 @@
 :root {
     /***** font-family *****/
     --font-family-primary: 'Plus Jakarta Display', sans-serif;
-    ;
     /***** color *****/
     --color-white: white;
     --color-black: black;
     --color-brilliance: #FDFCFC;
+    --cream-white: #FAFAFA;
     --linear-gradient-primary: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
     /***** font-size *****/
     --fs-sm: 14px;
@@ -29,11 +29,15 @@
     color: var(--color-black);
 }
 
+.cream-white {
+    color: var(--cream-white);
+}
+
 .color-brilliance {
     color: var(--color-brilliance);
 }
 
-.bg-brilliance{
+.bg-brilliance {
     background-color: var(--color-brilliance);
 }
 
@@ -66,6 +70,6 @@
 @media (max-width:575.98px) {
     :root {
         --fs-xl: 46px;
-        --fs-md:30px;
+        --fs-md: 30px;
     }
 }
