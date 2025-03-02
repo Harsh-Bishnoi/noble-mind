@@ -6,10 +6,10 @@
     --color-black: black;
     --color-brilliance: #FDFCFC;
     --cream-white: #FAFAFA;
-    --bg-crystal-bell:#EEEDEF;
-    --color-light-black:#0000001F;
-    --color-dark-black:#0000003D;
-    --color-light-white:#FFFFFF29;
+    --bg-crystal-bell: #EEEDEF;
+    --color-light-black: #0000001F;
+    --color-dark-black: #0000003D;
+    --color-light-white: #FFFFFF29;
     /***** linearGradient *****/
     --linear-gradient-primary: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
     /***** font-size *****/

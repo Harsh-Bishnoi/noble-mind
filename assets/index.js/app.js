@@ -7,6 +7,34 @@ const navbarbtn = () => {
     document.body.classList.toggle("overflow-hidden")
 }
 
+// section 3
+
+const visionPoints = [{
+    img: "./assets/images/svg/section-3-check-img.svg",
+    discription: "The future of how we live, work, and learn. We see a world where technology is not just a tool but a transformative force for good, reshaping every aspect of human existence."
+},
+{
+    img: "./assets/images/svg/section-3-check-img.svg",
+    discription: "Technology is seen as a force for good, capable of driving positive change in society and improving the human experience."
+},
+{
+    img: "./assets/images/svg/section-3-check-img.svg",
+    discription: "Share insights and innovations that have a positive impact across borders and sectors."
+}
+];
+
+const visionList = document.getElementById('vision-list');
+
+visionList.innerHTML = visionPoints.map(point => `
+        <div class="vision-card w-100">
+        <div class= "d-flex align-items-start gap-10">
+            <img src="${point.img}" alt="correct-img">
+            <p class = "font-family-primary fw-normal fs-6 lh-24 text-black opacity-80 max-w-386 mb-0">${point.discription}</p>
+        </div>
+        </div>
+    `).join('');
+
+
 
 
 // section 4
@@ -24,7 +52,7 @@ const cardData = [
     {
         img: "./assets/images/svg/finance-img.svg",
         title: "Finance",
-        text: "Recognizing that knowledge is the cornerstone of financial empowerment.", icon: "fa-solid fa-coins"
+        text: "Recognizing that knowledge is the cornerstone of financial empowerment."
     },
     {
         img: "./assets/images/svg/marketing-img.svg",
@@ -90,7 +118,7 @@ const cardsData = [
     {
         Image: "./assets/images/svg/correct-svg.svg",
         title: "Collaboration",
-        description: "Forge strategic partnerships across industries and institutions, </br> emphasizing both global and local advancements."
+        description: "Forge strategic partnerships across industries and institutions, emphasizing both global and local advancements."
     },
     {
         Image: "./assets/images/svg/correct-svg.svg",
