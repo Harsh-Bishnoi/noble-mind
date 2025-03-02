@@ -278,7 +278,6 @@
 }
 
 /***** section 4 *****/
-
 .pt-119 {
     padding-top: 119px;
 }
@@ -382,35 +381,7 @@
     gap: 8px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /***** section 6 *****/
-
 .pt-109 {
     padding-top: 109px;
 }
@@ -495,6 +466,16 @@
 
 .gap-12 {
     gap: 12px;
+}
+
+.footer-text-hover {
+    transition: all 200ms linear;
+}
+
+.footer-text-hover:hover {
+    background: var(--linear-gradient-primary) !important;
+    color: transparent !important;
+    background-clip: text !important;
 }
 
 .footer-circle {
