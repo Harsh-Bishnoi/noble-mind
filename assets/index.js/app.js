@@ -63,3 +63,85 @@ container.innerHTML = cardsData.map(card => `
             </div>
         `)
     .join('');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const cardData = [
+    {
+        img: "./assets/images/svg/health-care-img.svg",
+        title: "Healthcare",
+        text: "We are on a mission to revolutionize the field of healthcare through cutting-edge innovation."
+    },
+    {
+        img: "./assets/images/svg/education-img.svg",
+        title: "Education",
+        text: "Education is rooted in the idea that learning should be a lifelong journey."
+    },
+    {
+        img: "./assets/images/svg/finance-img.svg",
+        title: "Finance",
+        text: "Recognizing that knowledge is the cornerstone of financial empowerment.", icon: "fa-solid fa-coins"
+    },
+    {
+        img: "./assets/images/svg/marketing-img.svg",
+        title: "Marketing",
+        text: "Where marketing campaigns are driven by data-driven insights and creativity knows no bounds."
+    },
+    {
+        img: "./assets/images/svg/entertainment-img.svg",
+        title: "Entertainment",
+        text: "We believe that technology has the power to transport individuals to new worlds, unlocking creativity."
+    },
+    {
+        img: "./assets/images/svg/agriculture-img.svg",
+        title: "Agriculture",
+        text: "We are passionate about regenerative farming practices and sustainable agriculture."
+    }
+];
+
+const cardContainer = document.getElementById("card-container-1");
+
+cardContainer.innerHTML = cardData.map(card => `
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card-box-1 w-100">
+                    <div class="img-circle d-flex justify-content-center align-items-center mb-20">
+                      <img src="${card.img}" alt="images">
+                    </div>
+                    <h5 class="font-family-primary fw-bold fs-4 lh-33 text-black">${card.title}</h5>
+                    <p class="font-family-primary fw-normal fs-6 lh-24 text-black opacity-80 max-w-324 mb-0">${card.text}</p>
+                </div>
+            </div>
+        `).join('');
