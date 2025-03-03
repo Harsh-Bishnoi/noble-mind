@@ -320,6 +320,10 @@
 
 .card-box-1:hover .img-circle {
     background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+
+    path{
+        fill: white;
+    }
 }
 
 .max-w-324 {
