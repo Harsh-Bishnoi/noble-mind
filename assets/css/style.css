@@ -57,7 +57,7 @@
 }
 
 .text-hover {
-    padding: 2px 0;
+    padding: 5px 0;
     position: relative;
     transition: all 0.3s ease-in-out;
 }
