@@ -273,7 +273,7 @@
     border: none;
 }
 
-/* section 2 */
+/* OUR MISSON */
 .max-w-536 {
     max-width: 536px;
 }
@@ -333,7 +333,7 @@
     left: 37%;
 }
 
-/* section 3 */
+/* OUR VISION */
 .max-w-461 {
     max-width: 461px;
 }
@@ -380,7 +380,7 @@
     left: 52%;
 }
 
-/***** section 4 *****/
+/***** OUR SERVICES *****/
 .pt-119 {
     padding-top: 119px;
 }
@@ -401,7 +401,7 @@
 
 .card-box-1:hover {
     box-shadow: 0px 9px 50px 0px var(--color-light-black);
-    border: transparent;
+    border-color: transparent;
 }
 
 .img-circle {
@@ -409,6 +409,7 @@
     height: 72px;
     border-radius: 80px;
     background: linear-gradient(130.88deg, rgba(168, 84, 233, 0.16) -9.14%, rgba(79, 145, 252, 0.16) 283.16%);
+    transition: all 300ms linear;
 }
 
 .card-box-1:hover .img-circle {
@@ -427,7 +428,7 @@
     margin-bottom: 20px;
 }
 
-/***** section 5 *****/
+/***** WHY CHOOSE US *****/
 .max-w-666 {
     max-width: 666px;
 }
@@ -468,7 +469,7 @@
     gap: 8px;
 }
 
-/***** section 6 *****/
+/***** JOIN COMPANIES *****/
 .pt-109 {
     padding-top: 109px;
 }
@@ -491,7 +492,7 @@
     filter: blur(182.413px);
 }
 
-/***** section 7 *****/
+/***** WAITING FOR *****/
 .box-2 {
     max-width: 1140px;
     width: 100%;
