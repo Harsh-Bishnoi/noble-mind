@@ -495,6 +495,12 @@
     filter: blur(182.413px);
 }
 
+.slick-slider .slick-track {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
 /***** WAITING FOR *****/
 .box-2 {
     max-width: 1140px;
