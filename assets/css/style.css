@@ -589,6 +589,10 @@
     mask-composite: exclude;
 }
 
+.pl-16{
+    padding-left: 16px;
+}
+
 /***** max width *****/
 @media (max-width:1247.98px) {
     .left-49 {
