@@ -278,6 +278,10 @@
     max-width: 536px;
 }
 
+.w-23 {
+    width: 23%;
+}
+
 .mb-42 {
     margin-bottom: 42px;
 }
@@ -663,6 +667,10 @@
     .pb-148 {
         padding-bottom: 100px;
     }
+
+    .pb-60{
+        padding-bottom: 60px;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -721,4 +729,11 @@
     .gap_52 {
         gap: 52px;
     }
+}
+
+@media (min-width:768px) {
+    .pl-18 {
+        padding-left: 18px;
+    }
+
 }
