@@ -7,7 +7,7 @@ const navbarbtn = () => {
     document.body.classList.toggle("overflow-hidden")
 }
 
-// section 3
+// OUR VISION
 
 const visionPoints = [{
     img: "./assets/images/svg/section-3-check-img.svg",
@@ -37,7 +37,7 @@ visionList.innerHTML = visionPoints.map(point => `
 
 
 
-// section 4
+// OUR SERVICES
 const cardData = [
     {
         svg: `<svg width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -172,7 +172,7 @@ cardContainer.innerHTML = cardData.map(card => `
 
 
 
-// section 5
+// WHY CHOOSE US
 const cardsData = [
     {
         Image: "./assets/images/svg/correct-svg.svg",
