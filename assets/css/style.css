@@ -263,6 +263,11 @@
     mask-composite: exclude;
 }
 
+.img-border {
+    border: 5px solid #ECDFF8;
+    border-radius: 21px;
+}
+
 #backToTop {
     position: fixed;
     bottom: 20px;
